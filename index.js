@@ -80,6 +80,5 @@ app.use("/img/", express.static('img'));
 
 app.use("/", express.static('public'));
 
-app.listen(3030).then(function () {
-    console.log("Server is running on port 3030");
-})
+app.listen(3030);
+console.log("Server is running on port 3030");
